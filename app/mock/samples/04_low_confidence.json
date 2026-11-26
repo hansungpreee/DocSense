@@ -1,0 +1,27 @@
+{
+  "file": "LEG-02_표준임대차계약서_006_hard.png",
+  "major": "법무/총무",
+  "minor_code": "NEW-02",
+  "minor_name": "미정 (담당자 지정 필요)",
+  "confidence": 0.52,
+  "reasons": [
+    "임대인·임차인 정보와 보증금·차임 지급 조건이 있음",
+    "문서 상단이 잘려 제목을 확인할 수 없음",
+    "환산보증금·관리비 세부 비목표가 보이지 않으나 이미지가 흐려 확실하지 않음"
+  ],
+  "evidence": [
+    {"page": 1, "bbox": [80, 60, 920, 300], "label": "임대인·임차인 정보"},
+    {"page": 1, "bbox": [80, 320, 920, 520], "label": "보증금·차임 조항"}
+  ],
+  "new_class": {
+    "proposed_name": null,
+    "proposed_major": "법무/총무",
+    "reason": "확신도 0.52가 기준 0.70 미만 (모델 1순위: LEG-02 표준임대차계약서)",
+    "trigger": "low_confidence"
+  },
+  "prompt_version": "v1",
+  "model": "mock",
+  "latency_ms": 6310,
+  "status": "pending_review",
+  "predicted_code": "LEG-02"
+}

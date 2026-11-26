@@ -1,0 +1,47 @@
+# config/employees.yaml
+# 데모 로그인용 가상 사원 목록. 실제 인증이 아니다. 비밀번호는 시연용 가짜 값(평문)이며 보안 기능이 아니다 (RBAC는 범위 밖).
+# 저장소에 올라가는 파일이므로 실제 비밀번호는 절대 쓰지 않는다.
+# 부서가 다루는 문서 성격은 대분류(config/taxonomy.yaml의 major 이름)로 정한다. 소분류 목록은 분류 체계에서 읽는다.
+
+departments:
+  - name: "인사팀"
+    majors: ["인사/채용"]
+    summary: "채용 지원서, 근로계약, 급여·재직 증명 등 사람과 관련된 문서"
+  - name: "재무회계팀"
+    majors: ["재무/회계"]
+    summary: "재무제표, 세금계산서, 세무 신고서처럼 돈의 흐름을 기록한 문서"
+  - name: "경영기획팀"
+    majors: ["경영/전략"]
+    summary: "사업계획서, 재고조사표 등 회사의 계획과 현황을 정리한 문서"
+  - name: "영업팀"
+    majors: ["영업/제안"]
+    summary: "제안서, 견적서, 발주서 등 판매와 수주 과정에서 오가는 문서"
+  - name: "고객지원팀"
+    majors: ["고객/거래처"]
+    summary: "계약서, 거래처 관련 서류 등 외부 고객·거래처와 주고받는 문서"
+  - name: "법무총무팀"
+    majors: ["법무/총무"]
+    summary: "법령 준수, 인증·허가, 사내 행정과 관련된 문서"
+
+employees:
+  - {id: "HS1001", password: "hs1001!", name: "김민서", title: "팀장", department: "인사팀"}
+  - {id: "HS1002", password: "hs1002!", name: "이도윤", title: "대리", department: "인사팀"}
+  - {id: "HS1003", password: "hs1003!", name: "박서연", title: "사원", department: "인사팀"}
+  - {id: "HS1004", password: "hs1004!", name: "최하준", title: "사원", department: "인사팀"}
+  - {id: "HS2001", password: "hs2001!", name: "정유진", title: "팀장", department: "재무회계팀"}
+  - {id: "HS2002", password: "hs2002!", name: "강지후", title: "과장", department: "재무회계팀"}
+  - {id: "HS2003", password: "hs2003!", name: "조은서", title: "대리", department: "재무회계팀"}
+  - {id: "HS2004", password: "hs2004!", name: "윤시우", title: "사원", department: "재무회계팀"}
+  - {id: "HS3001", password: "hs3001!", name: "장예린", title: "팀장", department: "경영기획팀"}
+  - {id: "HS3002", password: "hs3002!", name: "임준호", title: "과장", department: "경영기획팀"}
+  - {id: "HS3003", password: "hs3003!", name: "한소율", title: "사원", department: "경영기획팀"}
+  - {id: "HS4001", password: "hs4001!", name: "오태민", title: "팀장", department: "영업팀"}
+  - {id: "HS4002", password: "hs4002!", name: "서다은", title: "과장", department: "영업팀"}
+  - {id: "HS4003", password: "hs4003!", name: "신재윤", title: "대리", department: "영업팀"}
+  - {id: "HS4004", password: "hs4004!", name: "권나은", title: "사원", department: "영업팀"}
+  - {id: "HS5001", password: "hs5001!", name: "황지안", title: "팀장", department: "고객지원팀"}
+  - {id: "HS5002", password: "hs5002!", name: "안수빈", title: "대리", department: "고객지원팀"}
+  - {id: "HS5003", password: "hs5003!", name: "송현우", title: "사원", department: "고객지원팀"}
+  - {id: "HS6001", password: "hs6001!", name: "류채원", title: "팀장", department: "법무총무팀"}
+  - {id: "HS6002", password: "hs6002!", name: "전도현", title: "과장", department: "법무총무팀"}
+  - {id: "HS6003", password: "hs6003!", name: "문세아", title: "사원", department: "법무총무팀"}

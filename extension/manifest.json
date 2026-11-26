@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "DocSense 업로드 검사 (시연용)",
+  "version": "0.1.0",
+  "description": "ChatGPT에 파일을 올리기 전에 로컬 DocSense 서버로 보안 등급을 확인하고 기밀·대외비면 경고합니다.",
+  "host_permissions": ["http://127.0.0.1:8765/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

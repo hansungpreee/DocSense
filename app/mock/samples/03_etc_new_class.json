@@ -1,0 +1,28 @@
+{
+  "file": "출장정산서_004.png",
+  "major": "재무/회계",
+  "minor_code": "NEW-01",
+  "minor_name": "출장정산서",
+  "confidence": 0.82,
+  "reasons": [
+    "상단 제목이 '출장비 정산서'",
+    "출장 기간·출장지와 교통비·숙박비·일비 항목 표가 있음",
+    "분류 체계의 소분류 중 같은 목적의 양식이 없음"
+  ],
+  "evidence": [
+    {"page": 1, "bbox": [290, 38, 710, 92], "label": "문서 제목"},
+    {"page": 1, "bbox": [60, 210, 940, 590], "label": "경비 내역 표"},
+    {"page": 1, "bbox": [620, 820, 940, 930], "label": "결재란"}
+  ],
+  "new_class": {
+    "proposed_name": "출장정산서",
+    "proposed_major": "재무/회계",
+    "reason": "출장 경비를 항목별로 정산하는 문서로, 주요경비지출명세서(세무 제출용)와 목적이 다름",
+    "trigger": "etc"
+  },
+  "prompt_version": "v1",
+  "model": "mock",
+  "latency_ms": 5060,
+  "status": "pending_review",
+  "predicted_code": "ETC-00"
+}

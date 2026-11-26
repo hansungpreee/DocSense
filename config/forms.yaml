@@ -1,0 +1,23 @@
+# config/forms.yaml
+# 문서 양식 화면에서 소분류마다 내려받게 할 양식 파일 1개 (소분류 코드: app/forms/ 안의 파일 이름).
+# 소분류에 파일이 여러 개였던 것은 상세·최신 버전만 남겼다. 내려받는 이름은 소분류 이름(config/taxonomy.yaml) + 확장자.
+# 파일 이름은 영문으로 둔다 (한글 이름은 zip·윈도우에서 깨질 수 있다). 목록에 없는 소분류는 「양식 파일 준비 중」.
+HR-01: hr01_resume_detail.hwp
+HR-02: hr02_labor_contract.hwp
+HR-03: hr03_salary_2026.pdf
+FIN-01: fin01_trial_balance.hwp
+FIN-02: fin02_cost_statement.hwp
+FIN-03: fin03_income_statement.hwp
+FIN-04: fin04_revenue_expense.hwp
+FIN-05: fin05_major_expense.hwp
+FIN-06: fin06_income_total_2025.hwp
+FIN-07: fin07_biz_income_withholding.hwp
+FIN-08: fin08_yearend_deduction.hwp
+FIN-09: fin09_audit_report.pdf
+MGT-01: mgt01_trade_analysis.hwp
+SAL-01: sal01_quote_statement.hwp
+SAL-02: sal02_visit_log.hwp
+CUS-01: cus01_nda.hwp
+CUS-02: cus02_franchise.hwp
+LEG-01: leg01_commercial_lease.hwp
+LEG-02: leg02_standard_lease.hwp

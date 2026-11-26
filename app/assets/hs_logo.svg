@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="38" viewBox="0 0 168 38">
+  <!-- data/html/assets/logo.svg(문서 양식에 쓰는 HS리테일 로고)를 어두운 화면용으로 색만 밝게 바꾼 것 -->
+  <rect x="2" y="4" width="30" height="30" rx="6" fill="#3B6BD8"/>
+  <path d="M9 12 v14 M21 12 v14 M9 19 h12" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="25" cy="12" r="3" fill="#38BDF8"/>
+  <text x="38" y="21" font-family="Malgun Gothic, sans-serif" font-size="14" font-weight="bold" fill="#ECECEC">HS RETAIL</text>
+  <text x="38" y="32" font-family="Malgun Gothic, sans-serif" font-size="8.5" fill="#9A9A9A">(주)에이치에스리테일</text>
+</svg>

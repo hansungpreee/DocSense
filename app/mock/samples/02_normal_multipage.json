@@ -1,0 +1,23 @@
+{
+  "file": "FIN-09_감사보고서_003.pdf",
+  "major": "재무/회계",
+  "minor_code": "FIN-09",
+  "minor_name": "감사보고서",
+  "confidence": 0.88,
+  "reasons": [
+    "1페이지 표지에 '감사보고서' 제목과 감사인 명칭이 있음",
+    "2페이지에 '감사의견'과 '핵심감사사항' 서술 단락이 있음",
+    "3페이지에 발견사항과 개선 권고사항 표가 있음"
+  ],
+  "evidence": [
+    {"page": 1, "bbox": [250, 300, 750, 380], "label": "표지 제목"},
+    {"page": 2, "bbox": [80, 120, 920, 260], "label": "감사의견 단락"},
+    {"page": 3, "bbox": [70, 180, 930, 640], "label": "발견사항·권고사항 표"}
+  ],
+  "new_class": null,
+  "prompt_version": "v1",
+  "model": "mock",
+  "latency_ms": 9420,
+  "status": "confirmed",
+  "predicted_code": "FIN-09"
+}

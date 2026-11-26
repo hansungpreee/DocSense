@@ -1,0 +1,22 @@
+{
+  "file": "FIN-03_손익계산서_007.png",
+  "major": "재무/회계",
+  "minor_code": "FIN-03",
+  "minor_name": "손익계산서",
+  "confidence": 0.94,
+  "reasons": [
+    "상단 제목이 '손익계산서'",
+    "I.매출액, II.매출원가, III.매출총이익, V.영업이익 항목이 위에서 아래로 나열됨",
+    "차변·대변 열이 없어 합계잔액시산표가 아님"
+  ],
+  "evidence": [
+    {"page": 1, "bbox": [318, 42, 682, 96], "label": "문서 제목"},
+    {"page": 1, "bbox": [70, 160, 930, 720], "label": "손익 항목 표"}
+  ],
+  "new_class": null,
+  "prompt_version": "v1",
+  "model": "mock",
+  "latency_ms": 4180,
+  "status": "confirmed",
+  "predicted_code": "FIN-03"
+}

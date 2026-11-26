@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.env
+data/uploads/
+.venv/
+data/images/
+results/**/*.png
+data/db/
+data/*.db
+
+# 엔진 호출 로그 (python -m src.engine.log_summary로 요약)
+logs/
+
+# 로컬 API 키 파일 (call env_qwen.bat 등). 절대 커밋하지 않는다
+env_*.bat
+# test 이어 돌리기용 묶음 (tune_set retry)
+/retry_*.zip
+.pytest_cache/
+*.sqlite3
+*.pem
